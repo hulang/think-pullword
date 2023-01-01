@@ -1,0 +1,36 @@
+{
+    "name": "hulang/think-pullword",
+    "description": "ThinkPHP 分词/抽词 扩展包",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hulang",
+            "email": "hulangfy@163.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "thinkphp",
+        "think-extend"
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.0",
+        "guzzlehttp/guzzle": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PullWord\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "PullWord\\PullWordService"
+            ]
+        }
+    }
+}
