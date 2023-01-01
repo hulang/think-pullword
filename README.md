@@ -60,10 +60,11 @@ class Index
     public function index()
     {
         $source = '352净水器K10家用直饮大通量1000G 厨下RO反渗透纯水机';
-        $result = PullWord::pull($source')->get();
+        $result = PullWord::pull($source)->get();
         var_dump($result);
     }
 }
+
 ```
 
 #### 助手函数
