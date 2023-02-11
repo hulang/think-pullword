@@ -1,5 +1,9 @@
-# think-pullword
-ThinkPHP 分词/抽词 扩展包 `6.1`
+## thinkphp6.1+ 分词/抽词扩展包
+
+### 环境
+
+1. php >= 7.2.5
+2. thinkphp >=6.1
 
 使用梁厂的产品 http://www.pullword.com/
 
