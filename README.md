@@ -2,8 +2,8 @@
 
 ### 环境
 
-1. php >= 7.2.5
-2. thinkphp >=6.1
+- php >= 7.2.5
+- thinkphp >=6.1
 
 使用梁厂的产品 http://www.pullword.com/
 
